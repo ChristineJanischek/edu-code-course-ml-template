@@ -1,0 +1,13 @@
+lernender_id,thema,versuche,hilfen,bearbeitungszeit_min,punkte,loesungsquote,empfehlung
+L001,Bedingungen,1,0,42,10,1.0,Vertiefung
+L002,Schleifen,5,1,35,7.4,0.77,Grundlagen
+L003,Funktionen,1,1,21,,0.85,Vertiefung
+L004,Listen,3,3,47,7.1,0.6,Uebung
+L005,Bedingungen,2,0,19,9.7,0.96,Vertiefung
+L006,Schleifen,6,2,-4,6.4,0.55,Grundlagen
+L007,Funktionen,2,1,18,9.3,0.91,Vertiefung
+L008,Listen,1,1,22,10,1.0,Vertiefung
+L009,Bedingungen,3,2,22,8.3,1.8,Vertiefung
+L010,Schleifen,4,2,25,9.4,0.84,Vertiefung
+L011,Funktionen,3,2,40,5.0,0.58,Uebung
+L012,Listen,5,2,9,8.9,0.98,Grundlagen

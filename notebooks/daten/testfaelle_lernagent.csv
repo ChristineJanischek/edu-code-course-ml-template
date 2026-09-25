@@ -1,0 +1,7 @@
+testfall,loesungsquote,versuche,bearbeitungszeit_min,erwartung
+T01,0.95,1,12,Vertiefung
+T02,0.72,2,25,Uebung
+T03,0.3,5,42,Grundlagen
+T04,,2,20,keine ungepruefte Empfehlung
+T05,0.81,3,31,Grenzfall begruenden
+T06,1.2,1,8,ungueltiger Wertebereich
