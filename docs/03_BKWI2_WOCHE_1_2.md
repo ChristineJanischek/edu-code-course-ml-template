@@ -1,6 +1,6 @@
-# BKWI2 · BPE 7.1 · vorhandener Auftrag für Wochen 1–2
+# BKWI2 · BPE 7 · Arbeitsweg zu ML-K10-A01
 
-**Woche 1:** Auswertung großer Datenmengen, geeignete Grafik, sinnvolle Verdichtung und Deutung. **Woche 2:** die bereits eingesetzte Python-Bibliothek in Notebook und Code nachvollziehen. Die fachliche Aufgabenstellung `ML-K10-A01` bleibt in `aufgaben/ML-K10-A01.md` und im Lernskript unverändert; diese Seite erklärt nur den Arbeitsweg ohne KI-Hilfe.
+Der aktuelle BKWI2-Wochenplan sieht ML in BPE 7 für **Wochen 1–3** vor. Der vorhandene Auftrag `ML-K10-A01` kann mit den Abschnitten **10.1–10.4** in **Wochen 1–2** bearbeitet werden. Die endgültige Reihenfolge und die Kennzeichnung als Kern- oder Vertiefungsinhalt müssen noch im Word-Master geprüft werden. Die fachliche Aufgabenstellung bleibt in `aufgaben/ML-K10-A01.md` und im Lernskript unverändert; diese Seite erklärt nur einen möglichen Arbeitsweg ohne KI-Hilfe.
 
 1. Vorabcheck ausführen und `notebooks/08_grosse_daten_visualisieren.ipynb` öffnen. Die Daten liegen in `notebooks/daten/lernergebnisse.csv` (synthetisch).
 2. Die vorhandene Zelle zunächst unverändert starten. Notiere: Welche Datei wird geladen? Wofür stehen `thema`, `punkte`, `size`, `mean`, `median`? Was zeigt die gedruckte Tabelle nicht?
