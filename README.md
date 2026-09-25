@@ -23,3 +23,14 @@ Arbeitsvorlage für BKWI1-Grundlagen (BPE 6) und BKWI2-Vertiefung (BPE 7). Die v
 Zum Arbeiten ist keine Copilot-Lizenz nötig. Mit GitHub Codespaces werden Python 3.12, Git, Jupyter-Erweiterungen, `.venv` und die Pakete aus `requirements.txt` bereitgestellt; der Vorabcheck läuft automatisch. Codespaces benötigt ein GitHub-Konto und unterliegt den Kontingenten und Regeln des Kontos beziehungsweise der Schule. Lokal funktioniert das Projekt auch ohne GitHub-Verbindung; die Schule kann Python und Pakete vorinstallieren oder eine interne Paketquelle bereitstellen.
 
 **Fachlicher Status:** Arbeitsvorlage für den ML-R8-Umbau. Das überarbeitete Lernskript und die Zuordnung aller 28 Kapitel sind noch in Prüfung.
+
+<!-- CUSTOM_LICENSE_NOTICE_START -->
+## License
+
+This repository is licensed under a custom license.
+
+- Attribution required: Christine Janischek - https://emotionalspirit.de
+- Non-commercial use only
+- Use only within state school systems
+- Any other use requires explicit prior written permission
+<!-- CUSTOM_LICENSE_NOTICE_END -->
