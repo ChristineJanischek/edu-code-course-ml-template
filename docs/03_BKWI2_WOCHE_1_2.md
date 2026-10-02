@@ -1,38 +1,19 @@
-# BKWI2 · BPE 7 · Arbeitsweg zu ML-K10-A01
+# BKWI2: Grundlagen und Vertiefung testen
 
-Der aktuelle BKWI2-Wochenplan sieht ML in BPE 7 für **Wochen 1–3** vor. Der vorhandene Auftrag `ML-K10-A01` kann mit den Abschnitten **10.1–10.4** in **Wochen 1–2** bearbeitet werden. Die endgültige Reihenfolge und die Kennzeichnung als Kern- oder Vertiefungsinhalt müssen noch im Word-Master geprüft werden. Die fachliche Aufgabenstellung bleibt in `aufgaben/ML-K10-A01.md` und im Lernskript unverändert; diese Seite erklärt nur einen möglichen Arbeitsweg ohne KI-Hilfe.
+Prüfe zuerst die Grundlagen Kapitel 1–12, danach die Vertiefung Kapitel 13–22. Die Pflichtinhalte bleiben den Ausbildungsjahren zugeordnet. Diese Sichtung verlangt nicht, alle Aufgaben in einer Doppelstunde zu lösen.
 
-1. Vorabcheck ausführen und `notebooks/08_grosse_daten_visualisieren.ipynb` öffnen. Die Daten liegen in `notebooks/daten/lernergebnisse.csv` (synthetisch).
-2. Die vorhandene Zelle zunächst unverändert starten. Notiere: Welche Datei wird geladen? Wofür stehen `thema`, `punkte`, `size`, `mean`, `median`? Was zeigt die gedruckte Tabelle nicht?
-3. Lies im Skript die vorhandenen Abschnitte „Vom Auftrag zur Grafik“, „Aggregieren, ohne Wichtiges zu verstecken“ und „View zuerst: Dashboard des Lernagenten“. Leite daraus die zwei im Originalauftrag geforderten Ansichten ab.
-4. Arbeite die TODO-Stelle selbst ab. Nutze als Nachschlagehilfe den Abschnitt „Mini-Glossar für das Notebook“ unten und den fachlichen Denkimpuls des Originalskripts: **Frage → Kennzahl → Gruppierung → Diagramm → Aussage → Grenze.**
-5. Speichere das Ergebnis in `abgaben/ML-K10-A01/`. Die vorhandene Aufgabe verlangt pro Ansicht Frage, Grafik, Aussage, Grenze und Handlungsempfehlung. Prüfe zusätzlich einen Fehler- oder Grenzfall und erkläre ihn in eigenen Worten.
+## Grundlagen wiederholen
 
-## Mini-Glossar für das Notebook
+Öffne das [Grundlagenskript](../lernskripte/ML_R8_Grundlagen_BKWI1_A4_Desktop_Prueffassung.pdf). Teste an ausgewählten Kapiteln die Sprünge zwischen Aufgaben-, Informations- und Vertiefungsblatt. Versuche eine Kernaufgabe ohne KI mithilfe des Informationsblatts und notiere die erste unklare Stelle.
 
-| Vorhandener Ausdruck | Bedeutung in diesem Projekt |
-| --- | --- |
-| `from pathlib import Path` | Werkzeug für Dateipfade, unabhängig von einzelnen Schrägstrich-Konventionen. |
-| `Path('notebooks/daten/lernergebnisse.csv')` | relativer Pfad aus dem Projekt-Hauptordner. Wenn das Notebook aus `notebooks/` gestartet wird, greift der vorhandene Ersatzpfad `daten/lernergebnisse.csv`. |
-| `pd.read_csv(pfad)` | CSV-Daten in eine Tabelle (`DataFrame`) einlesen. |
-| `df.groupby('thema')` | Zeilen nach Thema gruppieren. |
-| `.agg(anzahl=('punkte','size'), mittelwert=('punkte','mean'), median=('punkte','median'))` | pro Thema Anzahl, arithmetisches Mittel und Median der Punkte ermitteln. |
-| `print(summary)` | die Gruppenergebnisse als Text ausgeben. |
-| `import matplotlib.pyplot as plt` | Grafikwerkzeug importieren; das Notebook enthält noch keinen fertigen Diagrammcode. |
+## Vertiefung nach Unterrichtsphase
 
-## Syntaxhilfe für eigene Grafiken (Beispieldaten)
+| Phase | Passende R8-Kapitel | Beispiel für ein Lernprodukt |
+| --- | --- | --- |
+| Daten sichtbar machen | 13–16 | Datensteckbrief, beschriftete Grafik, View-Entwurf |
+| Bibliotheken gezielt nutzen | 17–19 | Pipeline, kommentierter Code, Prüfprotokoll |
+| Wirtschaftliche Entscheidung | 20–22 | begründete Entscheidungsvorlage und Grenze |
 
-Diese kleine Übung nutzt andere Daten als der Auftrag. Führe sie in **einer neuen Codezelle** aus, erkläre jede Zeile und übertrage erst danach das Muster auf deine Fragestellung:
+Beginne bei Kapitel 13 mit der Kopfzeile von `notebooks/daten/lerndaten_lernagent.csv`. `notebooks/02_daten_erkunden.ipynb` oder `programme/02_daten_erkunden.py` ist ein Werkzeug. Für Kapitel 18 steht in `notebooks/daten/lernergebnisse.csv` die Spalte `bearbeitungszeit_min`; vergleiche Spaltennamen vor dem Ausführen.
 
-```python
-demo = pd.DataFrame({"gruppe": ["A", "A", "B", "B"], "wert": [3, 5, 2, 8]})
-demo.groupby("gruppe")["wert"].mean().plot(kind="bar")
-plt.xlabel("Gruppe")
-plt.ylabel("Mittlerer Wert")
-plt.title("Beispiel: Gruppenvergleich")
-plt.show()
-```
-
-`pd.DataFrame` baut die kleine Übungstabelle; `groupby` fasst gleiche Gruppennamen zusammen; `mean` berechnet pro Gruppe den Mittelwert; `plot(kind="bar")` zeichnet Balken. `xlabel`, `ylabel` und `title` beschriften die Grafik, `show()` zeigt sie an. Für eine Verteilung kann `demo["wert"].plot(kind="hist")` hilfreich sein. Eine Grafik zur eigenen Aufgabe braucht zusätzlich eine passende Frage, die Bedeutung ihrer Werte und eine Grenze der Aussage. Kopiere das Demo nicht als Abgabe.
-
-**Arbeitsregel:** Der Median und die Anzahl ergänzen den Mittelwert. Denke bei einer Managementgrafik daran, dass ein Durchschnitt Unterschiede innerhalb einer Gruppe verdecken kann. Du brauchst keine Copilot-Lizenz; frage zuerst im Skript, in der Tabelle und im Glossar nach. Bei einem technischen Fehler gib der Lehrkraft die genaue Fehlermeldung und den zuletzt ausgeführten Befehl.
+Pro Befund notieren: **Modul → Kapitel/Blatt → Datei oder Link → erwartetes Ergebnis → beobachtetes Problem → eigener Versuch**. Prüfe dabei, ob das Parallelbeispiel einen anderen Fall erläutert und die eigentliche Lösung offenlässt. Der Test von VS Code und Jupyter auf dem Schulgerät folgt separat.

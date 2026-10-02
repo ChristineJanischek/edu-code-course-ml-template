@@ -1,28 +1,29 @@
-# ML-Unterrichtsprojekt · Repository-Vorlage R8
+# ML-Unterrichtsprojekt · Vorlage R8
 
-Arbeitsvorlage für BKWI1-Grundlagen (BPE 6) und BKWI2-Vertiefung (BPE 7). Die vorhandenen Aufgaben, Python-Dateien, Notebooks und synthetischen Daten stammen aus dem ML-Schülerpaket. Drei bei der R8-Umstellung beschädigte CSV-Dateien sind aus der fachlichen v1.0-Ausgangsfassung wiederhergestellt. Es gibt hier **keine Lehrkraftlösungen**.
+Diese Vorlage begleitet die **Grundlagen (BKWI1, Kapitel 1–12)** und die **Vertiefung (BKWI2, Kapitel 13–22)**. Die BKWI2-Lerngruppe kann beide Teile anhand der R8-Prüffassung testen. Die vorhandenen synthetischen Daten, Python-Programme und Notebook-Starter bleiben erhalten. Es gibt keine Lehrkraftlösungen und keine Copilot-Pflicht.
 
-## Zuerst lesen
+> **Prüffassung:** Notiere unklare Begriffe, fehlerhafte Links, fehlende Dateien und widersprüchliche Kennungen mit Modul und Kapitel. Die Prüfung von VS Code/Jupyter auf dem Informatik-Stick erfolgt getrennt.
 
-1. [Schnellstart](docs/01_SCHNELLSTART.md): Codespaces richtet die Arbeitsumgebung automatisch ein; alternativ kannst du das Projekt ohne GitHub-Konto lokal nutzen.
-2. [Anhang: Konsole und Git](docs/02_KONSOLE_UND_GITHUB.md): Jeder Befehl wird mit Zweck erklärt. Es wird kein KI-Assistent vorausgesetzt.
-3. [Aufgabe für BKWI2, Wochen 1–2](docs/03_BKWI2_WOCHE_1_2.md): vorhandener Auftrag `ML-K10-A01` und seine Materialien.
-4. [Fehlerhilfe](docs/04_FEHLERHILFE.md): typische Installations-, Pfad- und Datenfehler.
+## Start in fünf Schritten
 
-## Verzeichnis
+1. Melde dich bei GitHub an und wähle **Use this template → Create a new repository**. Ohne Konto kannst du die Repository-ZIP herunterladen.
+2. Lies den [Schnellstart](docs/01_SCHNELLSTART.md) und bei Bedarf die [Konsolen- und Git-Hilfe](docs/02_KONSOLE_UND_GITHUB.md).
+3. Öffne zuerst [Grundlagen A4](lernskripte/ML_R8_Grundlagen_BKWI1_A4_Desktop_Prueffassung.pdf), dann [Vertiefung A4](lernskripte/ML_R8_Vertiefung_BKWI2_A4_Desktop_Prueffassung.pdf). Im Ordner `lernskripte/` liegen auch A5-PDF und bearbeitbare Word-Fassungen.
+4. Wähle ein Kapitel: `.1` Aufgabenblatt, `.2` Informationsblatt, `.3` Vertiefungsblatt. Die Textkopie unter `aufgaben/ML-Kxx-A01.md` hat dieselbe Kapitelnummer.
+5. Speichere dein Ergebnis in `abgaben/ML-Kxx-A01/`. Nutze die Beispiele und gestuften Hilfen im Skript; übernimm das Parallelbeispiel nicht als Lösung.
+
+Die [BKWI2-Prüfanleitung](docs/03_BKWI2_WOCHE_1_2.md), [Offline-Anleitung](docs/05_DIGITALE_SCHULTASCHE_OFFLINE.md), [Fehlerhilfe](docs/04_FEHLERHILFE.md) und [Kapitelzuordnung](docs/06_R8_KAPITELZUORDNUNG.md) sind im Repository enthalten. Lokal kann mit `.py`-Dateien gearbeitet werden, wenn Jupyter nicht installiert ist. Der Vorabcheck für Codespaces und der separate Offline-Check prüfen unterschiedliche Umgebungen.
 
 | Ordner | Inhalt |
 | --- | --- |
-| `aufgaben/` | vorhandene Aufgabenblätter mit stabilen Kennungen |
-| `notebooks/` | Jupyter-Starter mit offenen TODO-Stellen |
-| `notebooks/daten/` | synthetische CSV-Dateien; eine Datei enthält absichtlich Fehler für eine Aufgabe |
-| `programme/` | Python-Starter als Alternative für Thonny |
-| `abgaben/` | eigene Ergebnisse; keine personenbezogenen Echtdaten speichern |
-| `tests/` | technischer Funktionstest, kein Lösungsschlüssel |
+| `lernskripte/` | Grundlagen und Vertiefung als A4/A5-PDF und Word, R8-Prüffassung |
+| `aufgaben/` | 22 zum R8-Kapitel passende Auftragskopien; maßgeblich ist das Skript |
+| `notebooks/`, `programme/` | Starter zum eigenen Bearbeiten |
+| `notebooks/daten/` | synthetische Übungsdaten |
+| `abgaben/` | eigene Ergebnisse, keine echten personenbezogenen Daten |
+| `tests/` | technische und strukturelle Checks, keine Lösungen |
 
-Zum Arbeiten ist keine Copilot-Lizenz nötig. Mit GitHub Codespaces werden Python 3.12, Git, Jupyter-Erweiterungen, `.venv` und die Pakete aus `requirements.txt` bereitgestellt; der Vorabcheck läuft automatisch. Codespaces benötigt ein GitHub-Konto und unterliegt den Kontingenten und Regeln des Kontos beziehungsweise der Schule. Lokal funktioniert das Projekt auch ohne GitHub-Verbindung; die Schule kann Python und Pakete vorinstallieren oder eine interne Paketquelle bereitstellen.
-
-**Fachlicher Status:** Arbeitsvorlage für den ML-R8-Umbau. Das überarbeitete Lernskript und die Zuordnung aller 28 Kapitel sind noch in Prüfung.
+**Stand:** Unterrichtserprobung R8. Leistungsbewertung, Barrierefreiheit und die konkrete Schulgerät-Konfiguration werden gesondert geprüft.
 
 <!-- CUSTOM_LICENSE_NOTICE_START -->
 ## License
