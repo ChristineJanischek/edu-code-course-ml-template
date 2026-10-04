@@ -5,8 +5,7 @@ from sklearn.dummy import DummyClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-pfad = Path('notebooks/daten/lernergebnisse.csv')
-if not pfad.exists(): pfad = Path('daten/lernergebnisse.csv')
+pfad = Path(__file__).resolve().parents[1] / 'notebooks' / 'daten' / 'lernergebnisse.csv'
 df = pd.read_csv(pfad)
 X = df[['loesungsquote','versuche','bearbeitungszeit_min']]
 y = df['empfehlung']

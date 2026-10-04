@@ -5,8 +5,10 @@
     "ghcr.io/devcontainers/features/git:1": {}
   },
   "waitFor": "postCreateCommand",
-  "postCreateCommand": "python --version && git --version && python -m venv .venv && test -x .venv/bin/python && .venv/bin/python -m pip install -r requirements.txt && .venv/bin/python -m ipykernel install --sys-prefix --name ml-template --display-name 'Python (.venv)' && .venv/bin/python tests/vorabcheck.py",
-  "forwardPorts": [8888],
+  "postCreateCommand": "python --version && git --version && python -m venv .venv && test -x .venv/bin/python && .venv/bin/python -m pip install -r requirements-notebook.txt && .venv/bin/python -m ipykernel install --sys-prefix --name ml-template --display-name 'Python (.venv)' && .venv/bin/python tests/vorabcheck.py --notebook",
+  "forwardPorts": [
+    8888
+  ],
   "portsAttributes": {
     "8888": {
       "label": "JupyterLab",
