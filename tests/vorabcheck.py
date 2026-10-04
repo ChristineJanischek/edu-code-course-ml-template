@@ -7,7 +7,7 @@ import sys
 
 root = Path(__file__).resolve().parents[1]
 errors = []
-for module in ("pandas", "matplotlib", "sklearn", "jupyterlab", "ipykernel"):
+for module in (("pandas", "matplotlib", "sklearn", "jupyterlab", "ipykernel") if "--notebook" in sys.argv else ("pandas", "matplotlib", "sklearn")):
     try:
         importlib.import_module(module)
     except ImportError:

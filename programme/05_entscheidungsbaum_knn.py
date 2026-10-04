@@ -5,8 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
-pfad = Path('notebooks/daten/lerndaten_lernagent.csv')
-if not pfad.exists(): pfad = Path('daten/lerndaten_lernagent.csv')
+pfad = Path(__file__).resolve().parents[1] / 'notebooks' / 'daten' / 'lerndaten_lernagent.csv'
 df = pd.read_csv(pfad)
 X = df[['loesungsquote','versuche','bearbeitungszeit_min']]
 y = df['empfehlung']

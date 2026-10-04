@@ -1,28 +1,22 @@
-# ML-Unterrichtsprojekt · Repository-Vorlage R8
+# ML Unterrichtsprojekt für Grundlagen und Vertiefung
 
-Arbeitsvorlage für BKWI1-Grundlagen (BPE 6) und BKWI2-Vertiefung (BPE 7). Die vorhandenen Aufgaben, Python-Dateien, Notebooks und synthetischen Daten stammen aus dem ML-Schülerpaket. Drei bei der R8-Umstellung beschädigte CSV-Dateien sind aus der fachlichen v1.0-Ausgangsfassung wiederhergestellt. Es gibt hier **keine Lehrkraftlösungen**.
+Gemeinsame Schüler-Arbeitsvorlage für BKWI1 Kapitel 1–12 und BKWI2 Kapitel 13–22. Aufgabenkennungen A01 und V01 verbinden jeweils Kernauftrag und Vertiefung. Python-Dateien und Notebooks enthalten offene TODO-Stellen. Die synthetischen Daten sind dieselben wie in den zugehörigen Offlinepaketen. Verwendet die aktuellen Skripte aus eurem Unterrichtspaket für Informationsblätter, Glossar, Parallelbeispiele und Selbstkontrolle.
 
-## Zuerst lesen
-
-1. [Schnellstart](docs/01_SCHNELLSTART.md): Codespaces richtet die Arbeitsumgebung automatisch ein; alternativ kannst du das Projekt ohne GitHub-Konto lokal nutzen.
-2. [Anhang: Konsole und Git](docs/02_KONSOLE_UND_GITHUB.md): Jeder Befehl wird mit Zweck erklärt. Es wird kein KI-Assistent vorausgesetzt.
-3. [Aufgabe für BKWI2, Wochen 1–2](docs/03_BKWI2_WOCHE_1_2.md): vorhandener Auftrag `ML-K10-A01` und seine Materialien.
-4. [Fehlerhilfe](docs/04_FEHLERHILFE.md): typische Installations-, Pfad- und Datenfehler.
-
-## Verzeichnis
+1. [Schnellstart](docs/01_SCHNELLSTART.md): eigene Kopie oder lokale Nutzung.
+2. [Konsole und Git](docs/02_KONSOLE_UND_GITHUB.md).
+3. [Grundlagen](docs/GRUNDLAGEN.md) oder [Vertiefung](docs/VERTIEFUNG.md).
+4. [Fehlerhilfe](docs/04_FEHLERHILFE.md).
 
 | Ordner | Inhalt |
-| --- | --- |
-| `aufgaben/` | vorhandene Aufgabenblätter mit stabilen Kennungen |
-| `notebooks/` | Jupyter-Starter mit offenen TODO-Stellen |
-| `notebooks/daten/` | synthetische CSV-Dateien; eine Datei enthält absichtlich Fehler für eine Aufgabe |
-| `programme/` | Python-Starter als Alternative für Thonny |
-| `abgaben/` | eigene Ergebnisse; keine personenbezogenen Echtdaten speichern |
-| `tests/` | technischer Funktionstest, kein Lösungsschlüssel |
+|---|---|
+| aufgaben | 44 Aufträge, Kapitel 1–22 mit Kern- und Vertiefungsauftrag |
+| programme und notebooks | Starter für Thonny, VS Code oder optional Jupyter |
+| notebooks/daten | lokale synthetische Daten, einschließlich ausdrücklich fehlerhafter Übungsdateien |
+| beispiele | ausgeführte Parallelbeispiele mit anderen Eingaben |
+| abgaben | eigene Ergebnisse in Ordnern mit Aufgabenkennung |
+| tests | technische Prüfungen ohne Lösungsschlüssel |
 
-Zum Arbeiten ist keine Copilot-Lizenz nötig. Mit GitHub Codespaces werden Python 3.12, Git, Jupyter-Erweiterungen, `.venv` und die Pakete aus `requirements.txt` bereitgestellt; der Vorabcheck läuft automatisch. Codespaces benötigt ein GitHub-Konto und unterliegt den Kontingenten und Regeln des Kontos beziehungsweise der Schule. Lokal funktioniert das Projekt auch ohne GitHub-Verbindung; die Schule kann Python und Pakete vorinstallieren oder eine interne Paketquelle bereitstellen.
-
-**Fachlicher Status:** Arbeitsvorlage für den ML-R8-Umbau. Das überarbeitete Lernskript und die Zuordnung aller 28 Kapitel sind noch in Prüfung.
+Werkzeugnummern sind keine Kapitelnummern. Lehrkraftlösungen und historische Skriptfassungen werden nicht mitgeliefert. Die Erprobung auf Schulgeräten und im Unterricht erfolgt separat. Das Repository ist ein gemeinsamer technischer Ausgangspunkt; es ersetzt die Lernskripte nicht.
 
 <!-- CUSTOM_LICENSE_NOTICE_START -->
 ## License
