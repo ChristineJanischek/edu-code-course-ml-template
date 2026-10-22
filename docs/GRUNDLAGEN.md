@@ -1,6 +1,6 @@
 # Grundlagen BKWI1 · R10 · Kapitel 1–12
 
-Beginne mit dem Skript unter dem Skript im Unterrichtspaket. A4 ist für Rechner und Ausdruck, A5 für kleine Bildschirme. Das Aufgabenblatt eröffnet den Fall, das Informationsblatt erklärt Begriffe und ein anderes Beispiel, das Vertiefungsblatt enthält einen Zusatzauftrag.
+Beginne mit dem Grundlagen-Skript im Ordner `01_Skript` im Repository oder im Unterrichtspaket. A4 ist für Rechner und Ausdruck, A5 für kleine Bildschirme. Das Aufgabenblatt eröffnet den Fall, das Informationsblatt erklärt Begriffe und ein anderes Beispiel, das Vertiefungsblatt enthält einen Zusatzauftrag.
 
 Alle Daten sind lokal unter notebooks/daten verfügbar. Programme und Notebooks enthalten TODO-Stellen und sind Starter, keine Lösungen. Eigene Ergebnisse unter abgaben/ML-Kxx-A01 beziehungsweise abgaben/ML-Kxx-V01 speichern. Die Werkzeugnummer eines Programms kann von der aktuellen Kapitelnummer abweichen; die Aufgabenkennung ist maßgeblich.
 

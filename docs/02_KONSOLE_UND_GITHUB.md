@@ -13,6 +13,8 @@
 | `.venv\Scripts\python.exe tests\vorabcheck.py` | Voraussetzungen und CSV-Daten prüfen | die Meldung `VORABCHECK BESTANDEN` erscheint. |
 | `.venv\Scripts\jupyter-lab.exe` | Notebook-Oberfläche im Browser starten | der Browser zeigt JupyterLab. Die Konsole geöffnet lassen. |
 
+Für die optionale Notebook-Oberfläche vorher `.venv\Scripts\python.exe -m pip install -r requirements-notebook.txt` ausführen.
+
 `git` verwaltet Dateistände auf deinem Computer. **GitHub** speichert ein Repository online; zum lokalen Bearbeiten ist es nicht nötig. Erst wenn ihr gemeinsam die Konten eingerichtet habt:
 
 | Befehl | Zweck |

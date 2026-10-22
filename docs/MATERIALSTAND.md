@@ -1,0 +1,9 @@
+# Materialstand 22.10.2026
+
+Grundlagen BKWI1 R10 (Kapitel 1–12) und Vertiefung BKWI2 R13 (Kapitel 13–22). Der aktuelle Datensteckbrief-Auftrag ersetzt im Repository den alten Abschlussprojekt-Auftrag unter ML-K13-A01. Alle 44 Auftragsdateien sind mit den maßgeblichen Skriptpaketen abgeglichen; vier unveränderte Schüler-PDFs sind beigefügt. `materialstand.json` dokumentiert stabile IDs, Inhaltsversionen und Prüfsummen; `tests/materialcheck.py` prüft sie bei jedem Lauf. Inhaltliche Änderungen benötigen einen erneuten Abgleich mit der kanonischen Skriptquelle; Hashes nicht allein zum Beseitigen einer Fehlermeldung neu setzen.
+
+Die vorhandenen Material-, Vorab-, Offline-Python- und Starterchecks bestehen. Alle acht Python-Starter liefen aus einem fremden Arbeitsordner. Die Codezellen aller acht Notebooks liefen zusätzlich in getrennten Python-Prozessen bei gesperrtem externem Netz. Ein tatsächlicher Jupyter-Kernel-/Codespaces-Bedientest und der Test auf dem eigenen Rechner sind damit nicht ersetzt. Der Workflow wiederholt die technischen Prüfungen bei späteren Änderungen.
+
+Die bestehenden inhaltlichen Freigaben und Grenzen gelten weiter: Grundlagen Kapitel 1 und 2 inhaltlich freigegeben; Einstiegsbereinigung Vertiefung R13 freigegeben. Vollständige Detailprüfung des Grundlagenlayouts, Novizen-, Unterrichts-, Schulgeräte- und assistive Bedienerprobung sowie abschließender Lehrplan-/Zeitabgleich bleiben gesonderte offene Prüfungen. Dieser Materialabgleich erweitert die pädagogische Freigabe nicht.
+
+Lehrkraftlösungen, Erwartungshorizonte und Musterklassenarbeiten liegen ausschließlich in den Lehrkraft-/Gesamtpaketen. Der gesonderte Projektteil 23–28 bleibt ein Arbeitsstand und gehört nicht zu dieser Vorlage. Vorhandene Schülerkopien aktualisieren sich nicht automatisch; sichere Aktualisierung siehe [Ferienstart](05_GITHUB_START.md).

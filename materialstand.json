@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "project_id": "EDU-ML-TEMPLATE",
+  "material_revision": "2026-10-22",
+  "modules": {
+    "grundlagen": "R10",
+    "vertiefung": "R13"
+  },
+  "source_commit": "caa10bc34b2851eef06ab6371f04d15381c30717",
+  "files": [
+    {
+      "path": "aufgaben/ML-K08-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-786dd519-bdf8-521a-9867-b6db27894ab9",
+      "version": "R10",
+      "sha256": "5e4e4962568ab09ab52c07529ea9be7d6ef4d4cec6c6e1c9ec110b5ca35265bc",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K08-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K01-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-aa6f7ee1-0e97-5d58-8ce8-6967f70bc4f5",
+      "version": "R10",
+      "sha256": "6e92d4d72459173b2c9b3f3aaceff2434ea1081d1d07cce991baa24bcc22d439",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K01-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K11-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-be900299-066b-5d22-9a23-a010b413aed2",
+      "version": "R10",
+      "sha256": "3dc595db8160b381d1f44cb7929c81d8ffb7ca06691050d42729b0d72688565a",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K11-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K10-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-c2adebd9-bb16-5691-b529-b391dda8bcc4",
+      "version": "R10",
+      "sha256": "63777261efbc2a79d61e57accbf359004d352c1de2d70b77d56b0991d47d50d5",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K10-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K02-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-16db1d59-011d-5f5e-bcf3-1c52cdf0c0d2",
+      "version": "R10",
+      "sha256": "431a0f9427fc161e3d2f2da0661ef90baa237a919d37889a4eb449403440ef44",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K02-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K06-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-ace25a4c-c91e-5bab-8a90-2449bbe0b224",
+      "version": "R10",
+      "sha256": "8e08ce8baed51574fbb1badc9e035a086b1287ea30e5adc8f42a549ef8078edb",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K06-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K10-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-fbf42729-c866-5c8e-9b14-883a2cc68a4f",
+      "version": "R10",
+      "sha256": "518238f98666bc432edaccab04938d88d140031fe209532a65000ef21117bf55",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K10-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K03-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-2b3b4082-52b4-5f29-b5cc-c8c552e318c7",
+      "version": "R10",
+      "sha256": "aba1f9ce30cfae255b0cdcc3068b817fa2fd53b9bcc134d89578dcf4b43b1b0c",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K03-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K07-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-45adecf9-1bcb-5a0d-8a91-ac80b7cffe38",
+      "version": "R10",
+      "sha256": "7d1f3e235a3159f18e7fad6959e819501f1b57e63c1b7ff4ff6f58719f595630",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K07-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K02-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-ad6a2e75-8874-5a35-bfc1-a980dbf70a29",
+      "version": "R10",
+      "sha256": "bdb44db1d641e183cbd0b53f900ea464dbcee9c3424037150c2eaf4d202c9e75",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K02-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K12-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-c1b1a38b-0154-55d1-a7fa-6b266197aae6",
+      "version": "R10",
+      "sha256": "914a6f372296c3a5809831daa18fff99d8201cb0a75f1463727a778ad83da674",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K12-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K03-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-bdec1297-2f99-5aae-b119-17ba77d7765d",
+      "version": "R10",
+      "sha256": "3f22816c917fd0143e2f14ea0690f5e9a150e97112b7019bfaf7e80151c6a190",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K03-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K08-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-21161279-a906-5d46-9fc8-49e55006a405",
+      "version": "R10",
+      "sha256": "edc5bfc5403532d42fb534ed07438139a97b79b15801aa95501a075f07ebe1c3",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K08-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K06-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-9d531bd5-a590-528e-b065-17f45a222f56",
+      "version": "R10",
+      "sha256": "302ea8a37a0b6f266be75ee8c1b619e6941ee32e1bd02eb0960455fa7f4bc5bb",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K06-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K09-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-550871cf-7b28-5098-81ea-193e2d2f0729",
+      "version": "R10",
+      "sha256": "9b0bc53ca966e4954a0eb63da4791f065971fc0f60fb28157ee39ae2e4e3d564",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K09-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K04-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-aa2a27d7-9842-5668-96d7-3d0ddb76c3f1",
+      "version": "R10",
+      "sha256": "0b56c6552011c0ff580286bf6a1595ff931d1f79347a3fb79eaf5ff7b4626ecc",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K04-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K05-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-23ad3d23-38e1-5865-bb5b-dadb2029f5bf",
+      "version": "R10",
+      "sha256": "39863310301403dd453d54e8796777146c3bd0143c6d2c0b7cc910befdd1a52b",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K05-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K09-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-13f495b1-ac76-5b78-bfae-8bcb44fcd42d",
+      "version": "R10",
+      "sha256": "21b74267a19d3e99512cf4ac40dd2166df71cbb1dfdb65565c47686097a9f964",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K09-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K07-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-66c55575-3c51-5d03-8895-c62d2230933d",
+      "version": "R10",
+      "sha256": "be730a49c0f407e914b89529234784bded547a0a3688d47c89d1b2656ce422b3",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K07-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K01-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-a249e065-e22e-5336-8f7b-d125e5753322",
+      "version": "R10",
+      "sha256": "c9f624cb10781754a4f0a2c0900b5f3743090de5294d27b3c383c56336e882f8",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K01-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K11-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-e3246edf-612e-5257-a673-fa5fd165ce08",
+      "version": "R10",
+      "sha256": "508a7fd1680300b6f351924ca13dffae62c6b8d9a4c350c1d165d1d99a983fd2",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K11-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K12-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-fde3fede-90d6-5883-9b43-2222254e6235",
+      "version": "R10",
+      "sha256": "a6cd4719d9028d26bb3902f9d75b88a7d3b33b413fb6c703b62177040087edd9",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K12-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K04-A01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-4cd3bbaa-6370-50bc-964f-7422efffaf78",
+      "version": "R10",
+      "sha256": "2416649ae2f813e2ec9a13f40907dc3b53a6851530a862430a25600085c1aa1e",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K04-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K05-V01.md",
+      "stable_id": "EDU-ML-GRUNDLAGEN-ba6a50fd-9ce5-5ca7-8a80-81e699bec586",
+      "version": "R10",
+      "sha256": "9d52d9c89398bfec98a4a6d94867dcabed584b31ce9a9ed3d336151e3b175488",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K05-V01.md"
+    },
+    {
+      "path": "01_Skript/ML_GRUNDLAGEN_BKWI1_vR10_A5_Mobil_Arbeitsvorlage.pdf",
+      "stable_id": "EDU-ML-GRUNDLAGEN-24107371-f861-5842-a3df-cdcad561d49f",
+      "version": "R10",
+      "sha256": "0f5a845239dd9a334444bc5f00b59f6647dbb0f1aadf09a31a0ee988e5be605d",
+      "canonical_path": "01_Skript/ML_GRUNDLAGEN_BKWI1_vR10_A5_Mobil_Arbeitsvorlage.pdf"
+    },
+    {
+      "path": "01_Skript/ML_GRUNDLAGEN_BKWI1_vR10_A4_Desktop_Arbeitsvorlage.pdf",
+      "stable_id": "EDU-ML-GRUNDLAGEN-a6bf7b79-1ccb-55a6-8462-54988b909b7d",
+      "version": "R10",
+      "sha256": "c41387862c9b6eabef135ddf202d16b1d3cb77b5b9af7d1b3804efe420abc4df",
+      "canonical_path": "01_Skript/ML_GRUNDLAGEN_BKWI1_vR10_A4_Desktop_Arbeitsvorlage.pdf"
+    },
+    {
+      "path": "aufgaben/ML-K17-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-58a02e0a-ab31-540b-973e-5d256bc2634f",
+      "version": "R13",
+      "sha256": "b9c30a776d8c1c0eb38bcbe6761519b59b69992d82ef1d5bde072708de783713",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K17-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K22-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-1fc62a30-e1f5-5be3-9160-26aad8cd0e12",
+      "version": "R13",
+      "sha256": "1feb2f421e7590c174ed1fbc545bcbbaafb5e46b908aae9a7f740aab6e5e679b",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K22-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K21-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-1e89463c-b494-5f2e-94bc-e1e781392e3c",
+      "version": "R13",
+      "sha256": "1a7708f191213cc5c97ce955f6b0ccfc4aa79a4920e2757ea4011c93f63cea4d",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K21-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K18-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-6459a834-cf46-525f-8430-94ca64b76363",
+      "version": "R13",
+      "sha256": "61c65ee62878a2c9380254c6cf1591204c4b1fc99eaa6ed5a4d7a96a34619092",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K18-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K22-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-cded76bc-a43a-585b-815a-01c8ed50b219",
+      "version": "R13",
+      "sha256": "c12f57cf26fab98c4ab4f06ad2a13d29c936e3e66f228bf7cc2ca441ccfb563e",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K22-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K20-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-536f6b88-5d26-52d6-8490-ebb3ee8eeb88",
+      "version": "R13",
+      "sha256": "a5cbb4df3f21417b0f30df41acd3ecaef17c428f59fe67de1ccd348f1e99b268",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K20-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K19-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-23620ee3-fdf1-5f3f-8f11-51a2b3c5e6e9",
+      "version": "R13",
+      "sha256": "b8ac3e23a86925dee923fd3628779c5c0af6e6426284448a479e9a93832f03c1",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K19-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K15-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-d3ef0866-7ecf-5bc9-8592-220efb8b7056",
+      "version": "R13",
+      "sha256": "9b8d4d40fa09f05e15d5812d15ce21e1913bdf3eeb166215ffa8c76e769c0948",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K15-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K16-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-8e0bb7a4-0d00-5b15-be51-dc4bc37a56c4",
+      "version": "R13",
+      "sha256": "c28bc8db8ef0df68c6f11c36a1e130bdc191e03fba29acecf580918821077063",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K16-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K19-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-1c1f794e-1062-554b-b366-5b1a0605ec63",
+      "version": "R13",
+      "sha256": "290567444b0e16bab51e2aca28bae5e7bad73881d41fa47b197c5f0a347ae734",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K19-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K13-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-92389936-ed2f-59e7-9e42-296fef940218",
+      "version": "R13",
+      "sha256": "78164276334abf889461d5ee6a87836bbae21695e02ec983ef043697744a237b",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K13-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K14-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-ede2caa0-6a33-5def-b7ff-993beb5479ee",
+      "version": "R13",
+      "sha256": "816b3472991314333666719bcb19f9a75e1c00e220f173e97cbda9200d07df20",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K14-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K14-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-81e22e06-94f0-5660-a1e5-503ebecb3257",
+      "version": "R13",
+      "sha256": "af2435c864704754b991dd8933dc5b92315f72e537047cfcfe54d523394b9459",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K14-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K13-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-724b0ade-aaf2-522c-968c-0a3cb65a2867",
+      "version": "R13",
+      "sha256": "3171d609a882ab7f8dfb061582ae658d1c7b9156a1896e28de2aadd3bc96298c",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K13-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K21-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-11ead4fe-0628-5fbe-ba1a-0ff5804c0cb5",
+      "version": "R13",
+      "sha256": "e82d87405dea59434a3a57c54f50be9465b2658c3cfe0d03a186df4844fc1d69",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K21-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K18-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-c00b6bd4-1e1e-573b-901f-691ed94f2fd2",
+      "version": "R13",
+      "sha256": "cf19a1fc06fb8c99b4fec829fee998f901d4b25a8ee1f87b4416724852d7e864",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K18-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K20-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-970d0f53-21a4-560e-9a18-b37dfe381135",
+      "version": "R13",
+      "sha256": "9e2290d2571f546b13e6507dbfb1fa3ff40afe78ebb7cf4e6b18824de6189ca8",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K20-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K15-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-b1d10b93-157e-5294-a5da-e5359070a69d",
+      "version": "R13",
+      "sha256": "e2153f320eac3eda4f7b759d9d926b56fe0ece22cb2c9e5b3c3c06030054abfe",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K15-A01.md"
+    },
+    {
+      "path": "aufgaben/ML-K16-V01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-9fac98e5-6a66-5b24-b00d-abaf71abe402",
+      "version": "R13",
+      "sha256": "4c4377db437a7183105f09a34544a261a571b729ddccec8aaf1fc96b1bf1adec",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K16-V01.md"
+    },
+    {
+      "path": "aufgaben/ML-K17-A01.md",
+      "stable_id": "EDU-ML-VERTIEFUNG-c7e5fd39-367e-5d6c-b132-dffc773fe874",
+      "version": "R13",
+      "sha256": "919a2ee640ffc71660a16696715799f3242b0d6067beda87991fa6720ad20a6e",
+      "canonical_path": "02_Offlineprojekt/aufgaben/ML-K17-A01.md"
+    },
+    {
+      "path": "01_Skript/ML_VERTIEFUNG_BKWI2_vR13_A5_Mobil_Arbeitsvorlage.pdf",
+      "stable_id": "EDU-ML-756e33a268629a39-PDF-82123ef1",
+      "version": "R13",
+      "sha256": "95f8dc9e75e59af3a910e5755e8b189ccbda6302a9fc36c8f0199803999bc0cc",
+      "canonical_path": "01_Skript/ML_VERTIEFUNG_BKWI2_vR13_A5_Mobil_Arbeitsvorlage.pdf"
+    },
+    {
+      "path": "01_Skript/ML_VERTIEFUNG_BKWI2_vR13_A4_Desktop_Arbeitsvorlage.pdf",
+      "stable_id": "EDU-ML-756e33a268629a39-PDF-b71bfa24",
+      "version": "R13",
+      "sha256": "421e95282d89247cfb0f544701ee83bfd782c0b5a289701a226347b25ca4d294",
+      "canonical_path": "01_Skript/ML_VERTIEFUNG_BKWI2_vR13_A4_Desktop_Arbeitsvorlage.pdf"
+    }
+  ],
+  "note": "Hashgebundener Abgleich aller Aufgaben und vier unveränderten Schüler-PDFs mit den kanonischen Paketquellen. Inhaltsfreigaben bleiben unverändert; keine Lehrkraftlösungen."
+}
